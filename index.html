@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Mim</title>
+<style type="text/css">
+
+html, body {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+button {
+  width: 300px;
+  height: 100px;
+  background: #77f;
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+</style>
+<script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+  <button onclick="newMime()">Mime!</button>
+  <input id="checkBox" type="checkbox">
+ <label for="checkBox">Coquin</label>
+  <h2 id='Mime'></h2>
+
+  <script type="text/javascript" >
+    'use strict'
+
+    const elem = document.getElementById('Mime');
+    const elemc = document.getElementById('checkBox');
+
+    const newMime = () => elem.innerHTML = elemc.checked ? document.mimc() : document.mim()
+  </script>
+</body>
+</html>
