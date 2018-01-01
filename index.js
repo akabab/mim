@@ -131,6 +131,7 @@ const animaux = [
 ]
 
 const actions = [
+  'accoucher maintenant',
   'aller dans le train fantôme',
   'aller à la piscine',
   'aller à la pêche',
@@ -140,6 +141,7 @@ const actions = [
   'avoir la grippe',
   'changer le bébé',
   'changer une couche',
+  'chanter un karaoke',
   'chercher ses clés',
   'couper un gâteau',
   'courir après le bus',
@@ -170,13 +172,14 @@ const actions = [
   'jouer au curling',
   'jouer avec un yoyo',
   'jouer du banjo',
+  'jouer aux billes',
   'jouer à pokemon',
   'lire du braille',
   'manger des spaghettis',
   'manger une glace',
   'marcher avec des échasses',
   'marcher dans le désert',
-  'marcher sur des braise',
+  'marcher sur des braises',
   'mâcher un chewing-gum',
   'nouer sa cravate',
   'planter un arbre',
@@ -206,6 +209,8 @@ const actions = [
   'être blonde',
   'être lunatique',
   'être malade en bateau',
+  'faire des burpees',
+  'me prendre les pieds dans le rideau',
 ]
 
 const actionCoquines = [ // 1 fait a 2
@@ -226,6 +231,8 @@ const actionCoquines = [ // 1 fait a 2
   'masser les pieds a',
   'masser les oreilles a',
   'mettre des menottes a',
+  'caresser la nouille a',
+  'casser les pattes a',
 ]
 
 const personnages = [
@@ -279,6 +286,13 @@ const personnages = [
   'un chef indien',
   'yannick noah',
   'zinedine zidane',
+  'hulk',
+  'JUL',
+  'booba',
+  'lorie',
+  'daft punk',
+  'nicolas sarkozy',
+'obé  lix',
 ]
 
 const expressions = [
